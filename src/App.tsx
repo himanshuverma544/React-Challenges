@@ -21,7 +21,7 @@ import Pagination from './pages/Pagination.tsx';
 import Otp from './pages/Otp.tsx';
 import TodoList from './pages/TodoList.tsx';
 import Tabs from './pages/Tabs.tsx';
-import Test from "./pages/Test.tsx"
+
 
 function App() {
 
@@ -39,7 +39,6 @@ function App() {
     OTP,
     TODO_LIST,
     TABS,
-    TEST
   ] = challenges;
 
   return (
@@ -61,8 +60,6 @@ function App() {
           <Route path={OTP.pathname} element={<Otp />} />
           <Route path={TODO_LIST.pathname} element={<TodoList />} />
           <Route path={TABS.pathname} element={<Tabs />} />
-          <Route path={TEST.pathname} element={<Test />} />
-          
 
           <Route path={NOT_FOUND.pathname} element={<NotFound />} />
         </Route>
