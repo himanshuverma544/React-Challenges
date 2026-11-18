@@ -86,10 +86,5 @@ export const challenges: Challenge[] = [
     pathname: "/tabs",
     title: "Tabs",
     difficulty: "easy"
-  },
-  {
-    pathname: "/test",
-    title: "Test",
-    difficulty: "medium"
   }
 ];
